@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagramPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagramPhone img{
+    height: 50rem;
+    padding: 20px;
+}
+
+.instagramContinue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.instaLogo{
+    height: 3rem;
+}
+
+.profilePhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profilePhoto img{
+    height: 6rem;
+}
+
+.instaLogin{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.instaLogout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.notAccount{
+    color: rgb(160, 160, 160);
+}
+
+.linkblue{
+    color: #0095f6;
+}
+
+.getApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.appDownload{
+    height: 6rem;
+    width: 10rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appDownload img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    body{
+        background-color: white;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagramPhone{
+        display: none;
+    }
+
+    .instagramContinue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+    
+}
+
